@@ -23,6 +23,7 @@ main {
   padding-top: 20px;
   display: grid;
   place-items: center;
+  cursor: pointer;
 }
 
 .display {
@@ -39,4 +40,11 @@ table {
 th,
 td {
   border: 1px solid lightgray;
+}
+
+.errorDisplay {
+  color: yellow;
+  font-size: 2rem;
+  font-family: sans-serif;
+  width: 100%;
 }
